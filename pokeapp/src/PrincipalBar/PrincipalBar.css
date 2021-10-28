@@ -1,0 +1,15 @@
+.bar__principal{
+    
+    background-color: rgb(49, 53, 82);
+    color: rgb(245, 239, 233);
+    text-align: center;
+
+   
+}
+
+.title__pokemon{
+    align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
