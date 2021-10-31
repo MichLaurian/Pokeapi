@@ -1,38 +1,57 @@
-/* .App {
-  text-align: center;
+*{
+    
+}
+.pokemon__card {
+ display: grid;
+ background-color: rgba(236, 236, 236, 0.438);
+ align-items: center;
+ justify-items: center;
+ border-radius: 3px;
+ box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+}
+.pokemon__img-container {
+ width: 110px;
+ height: 110px;
+ margin-right: 20px;
+}
+.pokemon__img {
+ width: 110px;
+}
+.pokemon__body {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ text-transform: uppercase;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.paginations__container {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pokedex__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 18px;
+    padding: 0px 10px 20px 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pagination {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.button__pagination {
+ margin-bottom: 5px;
+ background: black;
+ color: rgb(250, 245, 239);
+ border-radius: 10px;
+ margin: 5px;
+ box-shadow: 4px 4px 4px rgba(238, 237, 237, 0);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

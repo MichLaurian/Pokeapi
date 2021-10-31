@@ -1,0 +1,28 @@
+.seach__bar{
+    display:flex;
+    align-items: center;
+    margin: 0px auto;
+    padding: 0 20px;
+  }
+
+
+.input__pokemon{
+ border-radius: 5px;
+ height: 50px;
+ text-align: center;
+ color: rgb(2, 2, 2);
+ font-size: 18px; 
+
+border: none;
+ box-shadow: 0px 2px 2px rgb(0,0,0,0.30);
+}
+.input__pokemon input:focus{
+    outline: none;
+}
+.button__pokemon{
+    height: 50px;
+    width: 70px;
+    border-radius: 5px;
+    background: black;
+    color: whitesmoke;
+}
