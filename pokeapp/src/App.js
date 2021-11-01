@@ -1,22 +1,14 @@
-import { Route, Switch } from "react-router";
-
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
-import Pokedex from "./components/Pokedex";
-
 import PokedexCards from "./components/PokedexCards";
+import PokemonPage from "./components/Pokemon/PokemonPage";
 
-import PrincipalBar from "./components/PrincipalBar/PrincipalBar";
-import SearchBar from "./components/PrincipalBar/SearchBar";
-
-function App(props) {
+function App() {
  return (
-  <div className="">
-   <header className="header">
-    <PrincipalBar title="Pokemon Api" />
-   </header>
-   <SearchBar />
-   <PokedexCards />
-  </div>
+  <Router>
+   <Route exact path="/" component={PokedexCards} />
+   <Route path="/pokemon/:id" component={PokemonPage} />
+  </Router>
  );
 }
 

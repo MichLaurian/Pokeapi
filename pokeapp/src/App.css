@@ -1,5 +1,5 @@
-*{
-    
+Link{
+box-shadow: none;
 }
 .pokemon__card {
  display: grid;
@@ -22,7 +22,6 @@
  flex-direction: column;
  text-align: center;
  text-transform: uppercase;
- 
 }
 
 .paginations__container {
@@ -34,10 +33,10 @@
 }
 
 .pokedex__grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 18px;
-    padding: 0px 10px 20px 10px;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 18px;
+ padding: 0px 10px 20px 10px;
 }
 
 .pagination {
@@ -54,4 +53,79 @@
  border-radius: 10px;
  margin: 5px;
  box-shadow: 4px 4px 4px rgba(238, 237, 237, 0);
+}
+
+.notfound__line {
+ display: column;
+ margin: 60px;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+}
+
+.pokemon__page {
+ display: absolute;
+ justify-content: space-between;
+ align-items: center;
+ margin: 50px;
+ background-color: rgb(234, 244, 248);
+ box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+}
+
+.pokemon__page h1 {
+ text-transform: uppercase;
+ text-align: center;
+}
+
+.card__pokemon {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+}
+.img__pokemon {
+ width: 300px;
+}
+
+.row__details {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 60%;
+}
+.weight__pokemon {
+ margin: 10px;
+ display: column;
+}
+.weight__pokemon p {
+ margin: 10px;
+}
+
+.height__pokemon p {
+ margin: 10px;
+}
+.height__pokemon {
+ margin: 10px;
+ display: column;
+}
+
+.card__details {
+ display: column;
+ margin: 15px;
+}
+.card__abilities {
+ display: column;
+ margin: 15px;
+}
+
+.back__button {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.button__back {
+ margin: 60px;
+ padding: 10px;
+ border-radius: 5px;
+ border: none;
+ box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
 }
